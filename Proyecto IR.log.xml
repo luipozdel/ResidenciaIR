@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:owner>SEC-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -28,13 +19,13 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0004] Objetivos del proyecto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -47,7 +38,16 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -64,15 +64,6 @@
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0004] Objetivos del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2020</rem:year>
@@ -80,24 +71,6 @@
 <rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -110,21 +83,21 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:owner>GLO-0003</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -136,13 +109,22 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -155,226 +137,156 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:owner>GLO-0005</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0003] Base de datos con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0004] Página web)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 ([GLO-0004] Página web)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 ([GLO-0003] Base de datos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo o RSH para abreviar,] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar. Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
-Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
-Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar. Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
-Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
-Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
-Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
-Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
-Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
-Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
-Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
-Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
-Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, por lo tanto, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
-Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
-Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] Base de datos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] Introducción al dominio del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GLO-0004] Página web con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
-] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
-Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
-
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descipción de procesos de negocio a implementar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia situada en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos hijos del personal militar durante su curso escolar completo.
-] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:owner>GLO-0004</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>5</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
-Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
-
-] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
-
-
-]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] )]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0010</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Documento que el residente rellena para solicitar le mantenimiento de su habitación.] -> [Documento que el residente rellena para solicitar el mantenimiento de su habitación.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([GLO-0011] Comedor)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([GLO-0009] Expediente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([GLO-0012] Empresa de catering)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0013</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0010</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([GLO-0010] Parte de incidencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº11 ([GLO-0013] Biblioteca)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -387,15 +299,6 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>SEC-0018</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -405,70 +308,7 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0019</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno actual de software actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>SEC-0021</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -485,22 +325,22 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
+</rem:change>
+<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -522,6 +362,78 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actualç)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Modelos de procesos de negocio actuales con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0015] Entorno tecnológico actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -531,7 +443,7 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -540,39 +452,12 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Organizaciones participantes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Personas participantes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -590,16 +475,70 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actualç)]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Modelos de procesos de negocio actuales con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Organizaciones participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno actual de software actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Personas participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -611,15 +550,6 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0015</rem:owner><rem:date>
 <rem:year>2020</rem:year>
@@ -627,15 +557,6 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0015] Entorno tecnológico actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -648,11 +569,306 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
+
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] Base de datos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar. Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
+Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
+Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
+Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
+Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
+Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] Introducción al dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0004] Página web)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0004] Página web)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0005] Secretaría)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descipción de procesos de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo o RSH para abreviar,] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar. Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
+Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
+Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
+Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, en estos momentos, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
+Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
+Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.] -> [Este proyecto se centra en la Residencia de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.
+Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, por lo tanto, no existe ninguna página web o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.
+Actualmente siempre se debe ir a recepción o a la secretaría para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en recepción para luego ser enviados a secretaría esperando su procesado. 
+Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el residente se hará a través de una página web. La residencia tendrá a su disposición una base de datos en donde guardara los datos de los residentes junto con sus solicitudes.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([GLO-0004] Página web)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0004] Página web con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0003] Base de datos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia situada en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos hijos del personal militar durante su curso escolar completo.
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GLO-0003] Base de datos con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([GLO-0003] Base de datos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([PRG-0007] Recepción)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsGlossaryItem] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0008] Residentes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0006] Coronel)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 </rem:log>
