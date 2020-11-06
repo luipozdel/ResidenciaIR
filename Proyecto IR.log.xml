@@ -2,16 +2,42 @@
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0005</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
+=======
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0004] Objetivos del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [IsCustomer] actualizada [true] -> [false]]]></rem:description>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:owner>SEC-0003</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -19,8 +45,13 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>U</rem:type>
 <rem:owner>SEC-0001</rem:owner><rem:date>
+=======
+<rem:type>C</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -29,15 +60,20 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>CHS-0004</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0007</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>GLO-0006</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -47,6 +83,8 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+=======
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:owner>SEC-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -56,29 +94,38 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
 <rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>C</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
+=======
+<rem:type>U</rem:type>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:owner>SEC-0005</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<<<<<<< HEAD
+<rem:owner>SEC-0006</rem:owner><rem:date>
+=======
+<rem:owner>CHS-0004</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
@@ -93,6 +140,13 @@
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>DFS-0003</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -101,33 +155,50 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:owner>DRS-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>C</rem:type>
 <rem:owner>SEC-0007</rem:owner><rem:date>
+=======
+<rem:type>U</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0003</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Propiedad [IsDeveloper] actualizada [false] -> [true]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>U</rem:type>
+=======
+<rem:type>C</rem:type>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:owner>SEC-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -146,7 +217,11 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>GLO-0004</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0006</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
@@ -155,16 +230,28 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>DRS-0002</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0008</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Documento creado]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -173,38 +260,63 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0003</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>GLO-0009</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>6</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GLO-0010</rem:owner><rem:date>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Participantes del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<<<<<<< HEAD
+<rem:owner>GLO-0010</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0008</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Propiedad [Text] actualizada [Documento que el residente rellena para solicitar le mantenimiento de su habitación.] -> [Documento que el residente rellena para solicitar el mantenimiento de su habitación.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0007</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº9 ([GLO-0011] Comedor)]]></rem:description>
 </rem:change>
 <rem:change>
@@ -213,6 +325,16 @@
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
+=======
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:date>
 <rem:description><![CDATA[Añadido hijo nº7 ([GLO-0009] Expediente)]]></rem:description>
 </rem:change>
@@ -221,6 +343,7 @@
 <rem:owner>GLO-0011</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
+<<<<<<< HEAD
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
@@ -228,11 +351,20 @@
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>GLO-0012</rem:owner><rem:date>
+=======
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Modelos de procesos de negocio actuales con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0015] Entorno tecnológico actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -245,7 +377,11 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>GLO-0013</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0014</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
@@ -253,12 +389,18 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>C</rem:type>
 <rem:owner>GLO-0010</rem:owner><rem:date>
+=======
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
@@ -282,11 +424,40 @@
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0011</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actualç)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+=======
+<rem:description><![CDATA[Creación]]></rem:description>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -299,7 +470,11 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0018</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0019</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -307,7 +482,50 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>C</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+=======
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<<<<<<< HEAD
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0019] Descripción del entorno actual de software actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<<<<<<< HEAD
+<rem:owner>SEC-0013</rem:owner><rem:date>
+=======
 <rem:owner>SEC-0021</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -317,25 +535,8 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -349,11 +550,11 @@
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:owner>SEC-0023</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -362,21 +563,33 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0005</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0010</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0019</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Eliminado hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -398,6 +611,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -417,6 +631,9 @@
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0010</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0016</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -443,7 +660,11 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0010</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0009</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -452,38 +673,59 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0010</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0003</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0011] Pros y contras de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0013</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Personas participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0012</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades de la situación actualç] -> [Debilidades de la situación actual]]]></rem:description>
+=======
+<rem:description><![CDATA[Creación]]></rem:description>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:owner>SEC-0020</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0014</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0003</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
@@ -507,6 +749,13 @@
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0009</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Organizaciones participantes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -515,6 +764,7 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>SEC-0015</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -534,33 +784,40 @@
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0008</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0011</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
 <rem:type>C</rem:type>
 <rem:owner>SEC-0014</rem:owner><rem:date>
+=======
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+=======
+<rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades de la situación actualç] -> [Debilidades de la situación actual]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:owner>SEC-0018</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -568,12 +825,31 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
+<<<<<<< HEAD
+<rem:type>C</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+=======
 <rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0017] Descripción de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>PRG-0001</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0011</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>5</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
 Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
 
@@ -594,10 +870,18 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0024</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
@@ -679,6 +963,12 @@ Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, C
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Sergio López Díaz)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:owner>SEC-0022</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -688,6 +978,7 @@ Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, C
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
+<<<<<<< HEAD
 <rem:owner>PRG-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
@@ -700,10 +991,14 @@ Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, C
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0020</rem:owner><rem:date>
+=======
+<rem:owner>SEC-0002</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>5</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
 </rem:change>
 <rem:change>
@@ -724,10 +1019,18 @@ Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, C
 <rem:change>
 <rem:type>C</rem:type>
 <rem:owner>SEC-0023</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0001] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>5</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
@@ -793,10 +1096,24 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0022</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
+
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>6</rem:day>
 </rem:date>
+<<<<<<< HEAD
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
 </rem:change>
 <rem:change>
@@ -805,6 +1122,16 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>5</rem:day>
+=======
+<rem:description><![CDATA[Eliminado hijo nº1 ([STK-0001] Sergio López Díaz)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -846,7 +1173,19 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<<<<<<< HEAD
 <rem:owner>GLO-0008</rem:owner><rem:date>
+=======
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
@@ -855,20 +1194,494 @@ Los detalles a implementar para facilitar el sistema seria la mejora de la insci
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:owner>SEC-0009</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0006] Coronel)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+Los detalles a implementar para facilitar el sistema seria la mejora de la inscipción de alumnos, ya sea en la residencia o cualquier parte de ella, ya que se suele realizar a mano.
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Sergio López Díaz)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([ORG-0001] Residencia Militar San Hermenegildo) y nº1 ([STK-0001] Sergio López Díaz)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0007</rem:owner><rem:date>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([STK-0002] Javier Pacheco Márquez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>6</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<<<<<<< HEAD
+<rem:owner>SEC-0007</rem:owner><rem:date>
+=======
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia situada en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos hijos del personal militar durante su curso escolar completo.
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<<<<<<< HEAD
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0006] Coronel)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0007</rem:owner><rem:date>
+=======
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([STK-0003] Inmaculada Mayo Salvatierra)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([STK-0002] Javier Pacheco Márquez) y nº4 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, gimnasio, biblioteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos.
+
+
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, capilla, gimnasio, biblioteca, videoteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos. También disponen de servicio de limpieza y lavandería. Tiene 183 habitaciones individuales (84 masculinas y 99 femeninas).
+
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0002] Residencia desde la piscina)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G1-BBJ-19]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0001] Fachada residencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0004] Luis Pozas Delgado-Brackenbury]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G1-BBJ-19]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Comments] actualizada [Ninguno] -> [Es cliente y a la vez ingeniero de requisitos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([GRF-0004] Gimnasio)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido autor [STK-0001] Sergio López Díaz]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº3 ([STK-0001] Sergio López Díaz) y nº4 ([STK-0002] Javier Pacheco Márquez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Intercambiados hijos nº2 ([STK-0001] Sergio López Díaz) y nº3 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([STK-0004] Luis Pozas Delgado-Brackenbury)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GRF-0003] Comedor)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0001</rem:owner><rem:date>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+<<<<<<< HEAD
+=======
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización cliente [ORG-0001] Residencia Militar San Hermenegildo]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. Disponen de salón comedor, cafeteria, capilla, gimnasio, biblioteca, videoteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos. También disponen de servicio de limpieza y lavandería. Tiene 183 habitaciones individuales (84 masculinas y 99 femeninas).
+
+
+] -> [La Residencia San Hermenegildo es una residencia que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. 
+
+Disponen de salón comedor, cafeteria, capilla, gimnasio, biblioteca, videoteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos. También disponen de servicio de limpieza y lavandería. Tiene 183 habitaciones individuales (84 masculinas y 99 femeninas).
+
+
+]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] Organizaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Organization] actualizada [] -> [[ORG-0002] IR-G1-BBJ-19]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadida organización desarrolladora [ORG-0002] IR-G1-BBJ-19]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia desea tener un sistema software para poder gestionar tanto su tablón de anuncios, los menús del comedor, los partes de incidencias, las solicitudes del comedor, etc.
+
+Para los estudiantes no existe una clara jerarquía en la dirección de la residencia, desearían que la residencia no se rigiera por mandos militares.
+
+Actualmente los residentes no pueden sacar libros de la biblioteca porque no existe control sobre estos, así mismo desean disponer de un sistema bibliotecario para que se puedan alquilar libros y puedan sacarlos de la biblioteca a base de préstamos.
+
+Varios estudiantes se han quejado de las improvisaciones por parte del coronel. Quieren disponer de unos protocolos para las urgencias por COVID-19.] -> [La Residencia desea tener un sistema software para poder gestionar tanto su tablón de anuncios, los menús del comedor, los partes de incidencias, las solicitudes del comedor, etc.
+
+Para los estudiantes no existe una clara jerarquía en la dirección de la residencia, está mal estructurada, desearían que la residencia no se rigiera por mandos militares.
+
+Actualmente los residentes no pueden sacar libros de la biblioteca porque no existe control sobre estos, así mismo desean disponer de un sistema bibliotecario para que se puedan alquilar libros y puedan sacarlos de la biblioteca a base de préstamos.
+
+Varios estudiantes se han quejado de las improvisaciones por parte del coronel. Quieren disponer de unos protocolos para las urgencias por COVID-19.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [OBJ-0001]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0003] Objetivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [La Residencia desea tener un sistema software para poder gestionar tanto su tablón de anuncios, los menús del comedor, los partes de incidencias, las solicitudes del comedor, etc.
+
+Para los estudiantes no existe una clara jerarquía en la dirección de la residencia, está mal estructurada, desearían que la residencia no se rigiera por mandos militares.
+
+Actualmente los residentes no pueden sacar libros de la biblioteca porque no existe control sobre estos, así mismo desean disponer de un sistema bibliotecario para que se puedan alquilar libros y puedan sacarlos de la biblioteca a base de préstamos.
+
+Varios estudiantes se han quejado de las improvisaciones por parte del coronel. Quieren disponer de unos protocolos para las urgencias por COVID-19.] -> [La Residencia desea tener un sistema software para poder gestionar tanto su tablón de anuncios, los menús del comedor, los partes de incidencias, las solicitudes del comedor, limpieza de habitaciones y para la lavandería.
+
+Para los estudiantes no existe una clara jerarquía en la dirección de la residencia, está mal estructurada, desearían que la residencia no se rigiera por mandos militares.
+
+Actualmente los residentes no pueden sacar libros de la biblioteca porque no existe control sobre estos, así mismo desean disponer de un sistema bibliotecario para que se puedan alquilar libros y puedan sacarlos de la biblioteca a base de préstamos.
+
+Varios estudiantes se han quejado de las improvisaciones por parte del coronel. Quieren disponer de unos protocolos para las urgencias por COVID-19.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>6</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+>>>>>>> 3bc73cf7985546b0db5cf818d7f79234ae72e134
 </rem:change>
 </rem:log>
