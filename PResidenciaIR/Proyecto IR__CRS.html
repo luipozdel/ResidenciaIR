@@ -13,6 +13,7 @@
             // converter.setOption( "key", "value" );
 
             var converter = new showdown.Converter();
+            converter.setOption( "parseImgDimensions", true );
 
             // function to be used in XLST templates
             // if inline=true, all CRLF tags are replaced
@@ -429,7 +430,7 @@
 <h1 id="SEC-0005" class="section">2 Información sobre el dominio del problema</h1>
 <h2 id="SEC-0006" class="section">2.1 Introducción al dominio del problema</h2>
 <div id="PRG-0010">
-<textarea id="PRG-0010-text-md" class="markdown">Este proyecto se centra en la <a href="#GLO-0020" class="rem_ref">Residencia</a> de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.¬Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, por lo tanto, no existe ninguna <a href="#GLO-0027" class="rem_ref">página web</a> o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.¬Actualmente siempre se debe ir a <a href="#GLO-0019" class="rem_ref">recepción</a> o a la <a href="#GLO-0022" class="rem_ref">secretaría</a> para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en <a href="#GLO-0019" class="rem_ref">recepción</a> para luego ser enviados a <a href="#GLO-0022" class="rem_ref">secretaría</a> esperando su procesado. ¬Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el <a href="#GLO-0029" class="rem_ref">residente</a> se hará a través de una <a href="#GLO-0027" class="rem_ref">página web</a>. La <a href="#GLO-0020" class="rem_ref">residencia</a> tendrá a su disposición una <a href="#GLO-0011" class="rem_ref">base de datos</a> en donde guardara los datos de los residentes junto con sus solicitudes.</textarea>
+<textarea id="PRG-0010-text-md" class="markdown">Este proyecto se centra en la <a href="#GLO-0020" class="rem_ref">Residencia</a> de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.¬Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, por lo tanto, no existe ninguna <a href="#GLO-0027" class="rem_ref">página web</a> o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.¬Actualmente siempre se debe ir a <a href="#GLO-0019" class="rem_ref">recepción</a> o a la <a href="#GLO-0022" class="rem_ref">secretaría</a> para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en <a href="#GLO-0019" class="rem_ref">recepción</a> para luego ser enviados a <a href="#GLO-0022" class="rem_ref">secretaría</a> esperando su procesado. ¬Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el <a href="#GLO-0021" class="rem_ref">residente</a> se hará a través de una <a href="#GLO-0027" class="rem_ref">página web</a>. La <a href="#GLO-0020" class="rem_ref">residencia</a> tendrá a su disposición una <a href="#GLO-0011" class="rem_ref">base de datos</a> en donde guardara los datos de los residentes junto con sus solicitudes.</textarea>
 <div id="PRG-0010-text-html" class=""></div>
 <script>generate_markdown("PRG-0010-text");</script>
 </div>
@@ -455,12 +456,12 @@
 <script>generate_markdown("GLO-0014-text");</script>
 </div>
 <div id="GLO-0015" class="glo">
-<textarea id="GLO-0015-text-md" class="markdown">**Expediente**: Código de identificación para cada <a href="#GLO-0029" class="rem_ref">residente</a>.</textarea>
+<textarea id="GLO-0015-text-md" class="markdown">**Expediente**: Código de identificación para cada <a href="#GLO-0021" class="rem_ref">residente</a>.</textarea>
 <div id="GLO-0015-text-html" class=""></div>
 <script>generate_markdown("GLO-0015-text");</script>
 </div>
 <div id="GLO-0016" class="glo">
-<textarea id="GLO-0016-text-md" class="markdown">**Habitación**: Alojamiento del <a href="#GLO-0029" class="rem_ref">residente</a>.</textarea>
+<textarea id="GLO-0016-text-md" class="markdown">**Habitación**: Alojamiento del <a href="#GLO-0021" class="rem_ref">residente</a>.</textarea>
 <div id="GLO-0016-text-html" class=""></div>
 <script>generate_markdown("GLO-0016-text");</script>
 </div>
@@ -470,7 +471,7 @@
 <script>generate_markdown("GLO-0017-text");</script>
 </div>
 <div id="GLO-0018" class="glo">
-<textarea id="GLO-0018-text-md" class="markdown">**Parte de incidencia**: Documento que el <a href="#GLO-0029" class="rem_ref">residente</a> debe rellenar para solicitar el mantenimiento de su <a href="#GLO-0016" class="rem_ref">habitación</a>.</textarea>
+<textarea id="GLO-0018-text-md" class="markdown">**Parte de incidencia**: Documento que el <a href="#GLO-0021" class="rem_ref">residente</a> debe rellenar para solicitar el mantenimiento de su <a href="#GLO-0016" class="rem_ref">habitación</a>.</textarea>
 <div id="GLO-0018-text-html" class=""></div>
 <script>generate_markdown("GLO-0018-text");</script>
 </div>
@@ -497,9 +498,14 @@
 <h1 id="SEC-0010" class="section">3 Descripción de la situación actual</h1>
 <h2 id="SEC-0011" class="section">3.1 Pros y contras de la situación actual</h2>
 <h3 id="SEC-0012" class="section">3.1.1 Fortalezas de la situación actual</h3>
+<div id="PRG-0036">
+<textarea id="PRG-0036-text-md" class="markdown">El método de trabajo que lleva actualmente la <a href="#GLO-0020" class="rem_ref">residencia</a> es el mismo desde hace muchos años, por tanto los empleados saber perfectamente su funcionamiento. ¬¬El personal y los residentes no necesitan ningún conocimiento sobre informática para poder realizar sus tareas. Al ser de forma presencial la manera en la que los residentes se comunican con <a href="#GLO-0019" class="rem_ref">recepción</a>, hace que las dos partes puedan explicarse de forma más fluida y directa.</textarea>
+<div id="PRG-0036-text-html" class=""></div>
+<script>generate_markdown("PRG-0036-text");</script>
+</div>
 <h3 id="SEC-0013" class="section">3.1.2 Debilidades de la situación actual</h3>
 <div id="PRG-0023">
-<textarea id="PRG-0023-text-md" class="markdown">Uno de los mayores problemas de la <a href="#GLO-0020" class="rem_ref">residencia</a> es la falta de renovación, todos los documentos como la ficha de <a href="#GLO-0029" class="rem_ref">residente</a>, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un <a href="#GLO-0029" class="rem_ref">residente</a>.¬¬Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.¬¬Por último, la organización de la <a href="#GLO-0020" class="rem_ref">residencia</a> es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.</textarea>
+<textarea id="PRG-0023-text-md" class="markdown">Uno de los mayores problemas de la <a href="#GLO-0020" class="rem_ref">residencia</a> es la falta de renovación, todos los documentos como la ficha de <a href="#GLO-0021" class="rem_ref">residente</a>, los partes de incidencia, el registro de actividades, etc, todo está a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un <a href="#GLO-0021" class="rem_ref">residente</a>.¬¬Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidencias tardan mucho en mirarlos o que la mayoría de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.¬¬Por último, la organización de la <a href="#GLO-0020" class="rem_ref">residencia</a> es mala ya que no tienen nada informatizado y la mala comunicación influye a que esto se agrabe.</textarea>
 <div id="PRG-0023-text-html" class=""></div>
 <script>generate_markdown("PRG-0023-text");</script>
 </div>

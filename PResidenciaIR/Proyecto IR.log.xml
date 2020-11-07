@@ -2,34 +2,7 @@
 <rem:log xmlns:rem="http://rem.lsi.us.es">
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0004] Objetivos del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:owner>SEC-0019</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -38,217 +11,73 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:owner>PRG-0003</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Participantes del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DRS-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>DFS-0003</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>5</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>CHS-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Documento creado]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0003</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0009] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
 <rem:owner>SEC-0016</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0005] Residente)]]></rem:description>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0017] Descripción de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actualç)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Modelos de procesos de negocio actuales con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0010</rem:owner><rem:date>
+<rem:owner>SEC-0017</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [PRG-0002] Introducción al dominio del problema del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0006] Coronel(director))]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0001] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
@@ -262,80 +91,53 @@
 <rem:description><![CDATA[Eliminado el objeto [PRG-0002]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>5</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0003] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0004] Secretario)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0006</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GRF-0001</rem:owner><rem:date>
+<rem:owner>SEC-0014</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [FileName] actualizada [.\Registro de usuario.drawio] -> [.\Solicitar plaza.png]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0009] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0009] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 4 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0006</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0010] Introducción al dominio del problema)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades de la situación actualç] -> [Debilidades de la situación actual]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -344,7 +146,61 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descipción de procesos de negocio a implementar)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -362,129 +218,39 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>PRG-0003</rem:owner><rem:date>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0018</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>5</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0008] Encargado de cocina)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0024] Descipción de procesos de negocio a implementar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0023] Descipción de actores de negocio a implementar)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0001] Solicitar plaza)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0007] Solicitante)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0015</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0018] Descripción del entorno de hardware actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0019</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0002] )]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -506,16 +272,16 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0017] Descripción de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0015] Entorno tecnológico actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0022</rem:owner><rem:date>
+<rem:owner>SEC-0013</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -524,21 +290,390 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
+<rem:owner>SEC-0016</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>3</rem:day>
+<rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0014] Modelos de procesos de negocio actuales)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0004] Secretario)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
+<rem:owner>GLO-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0005] Residente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0001] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0001] Solicitar plaza)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0009] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0010] Introducción al dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0007] Solicitante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0010</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [PRG-0002] Introducción al dominio del problema del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0011</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0003] Base de datos del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0008] Encargado de cocina)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0012] Biblioteca)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0006] Coronel(director))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0011] Base de datos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0001]  con 0 hijos y 4 cambios]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0013</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0008] Catering del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FileName] actualizada [.\Registro de usuario.drawio] -> [.\Solicitar plaza.png]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0013] Catering)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0014</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0006] Coronel del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([PRG-0009] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0014] Coronel)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0010] Biblioteca del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0009] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0019</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>5</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0003] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0022] Modelos de procesos de negocio a implementar)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0002] Alcance del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0004] Objetivos del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>CHS-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DFS-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0007] Glosario de términos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>DRS-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -550,94 +685,13 @@
 <rem:description><![CDATA[Añadido hijo nº2 ([SEC-0009] Personas participantes)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Debilidades de la situación actualç] -> [Debilidades de la situación actual]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0021] Objetivos de negocio)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0012</rem:owner><rem:date>
+<rem:owner>SEC-0010</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
 <rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0013] Debilidades de la situación actualç)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0020</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0016] Descripción de actores de negocio actuales)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [SEC-0014] Modelos de procesos de negocio actuales con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -650,7 +704,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -659,7 +713,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0014</rem:owner><rem:date>
+<rem:owner>SEC-0009</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -668,7 +722,7 @@
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0018</rem:owner><rem:date>
+<rem:owner>SEC-0012</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
@@ -685,89 +739,17 @@
 <rem:description><![CDATA[Añadido hijo nº1 ([SEC-0008] Organizaciones participantes)]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
+<rem:type>U</rem:type>
 <rem:owner>SEC-0011</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0012] Fortalezas de la situación actual)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0010</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>3</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([SEC-0015] Entorno tecnológico actual)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0003] Comedor del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0002] Fachada residencia)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GRF-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [FileName] actualizada [..\comedor.jpg] -> [.\fotos\comedor.png]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0002</rem:owner><rem:date>
+<rem:owner>PRG-0036</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
@@ -775,58 +757,58 @@
 <rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0025] Organizaciones)]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>C</rem:type>
-<rem:owner>ORG-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [ORG-0001] Residencia Militar San Hermenegildo del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0004] Gimnasio del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [STK-0001] Sergio López Díaz del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0003] Residencia desde la piscina)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
 <rem:owner>CRS-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
-<rem:day>7</rem:day>
+<rem:day>3</rem:day>
 </rem:date>
-<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Fachada residencia con 0 hijos y 1 cambios]]></rem:description>
+<rem:description><![CDATA[Documento creado]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Participantes del proyecto] -> [Participantes en el proyecto]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([SEC-0006] Introducción al dominio del problema)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([SEC-0003] Participantes del proyecto)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>SEC-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>3</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -839,48 +821,279 @@
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>GRF-0003</rem:owner><rem:date>
+<rem:owner>SEC-0007</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Propiedad [FileName] actualizada [..\piscina.jpg] -> [.\fotos\piscina.png]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>ORG-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [ORG-0002] IR-G1-BBJ-19 del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0015] Expediente)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:owner>SEC-0002</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Javier Pacheco Márquez)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0003] Residencia desde la piscina)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0009] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([GLO-0019] Recepción)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>STK-0003</rem:owner><rem:date>
+<rem:owner>GLO-0021</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [STK-0003] Inmaculada Mayo Salvatierra del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [GLO-0011] Residente del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [GRF-0004] Fachada residencia con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:owner>PRG-0024</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [STK-0002] Javier Pacheco Márquez del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [PRG-0001]  del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº10 ([GLO-0020] Residencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0013</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0023] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([GLO-0018] Parte de incidencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0012] Expediente del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0019</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0007] Recepción del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº12 ([GLO-0022] Secretaría)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0018</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0009] Parte de incidencia del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº11 ([GLO-0021] Residente)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>PRG-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+Por último,  ] -> [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+
+Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0016] Habitación)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0024] )]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0002] Fachada residencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GRF-0004] Fachada residencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado hijo nº4 ([GRF-0004] Fachada residencia)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0003] Comedor del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0013] Habitación del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0020</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0014] Residencia del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Creación]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([GLO-0017] Página web)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0022</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0005] Secretaría del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0017</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0004] Página web del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>D</rem:type>
+<rem:owner>CRS-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -898,43 +1111,7 @@
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([STK-0003] Inmaculada Mayo Salvatierra)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([GRF-0005] Gimnasio)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>STK-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [STK-0004] Luis Pozas Delgado-Brackenbury del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº4 ([GRF-0004] Fachada residencia)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GRF-0004] Fachada residencia)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº4 ([STK-0004] Luis Pozas Delgado-Brackenbury)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -952,43 +1129,7 @@
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([STK-0004] Luis Pozas Delgado-Brackenbury)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0025</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [PRG-0002] Organizaciones del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0026] Objetivos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0026</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [PRG-0003] Objetivos del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([STK-0003] Inmaculada Mayo Salvatierra)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1015,12 +1156,93 @@ Para llevar la residencia con mayor comodidad y facilidad, nuestro software pret
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<rem:owner>ORG-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [ORG-0001] Residencia Militar San Hermenegildo del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0002] Javier Pacheco Márquez del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0026</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [PRG-0003] Objetivos del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
 <rem:owner>OBJ-0001</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Clonado a partir de [OBJ-0001] Sistema de noticias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0025] Organizaciones)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0001] Sistema de noticias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0001] Sergio López Díaz del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>PRG-0025</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [PRG-0002] Organizaciones del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([STK-0001] Javier Pacheco Márquez)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FileName] actualizada [..\piscina.jpg] -> [.\fotos\piscina.png]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1032,487 +1254,31 @@ Para llevar la residencia con mayor comodidad y facilidad, nuestro software pret
 <rem:description><![CDATA[Propiedad [FileName] actualizada [..\gimnasio.jpg] -> [.\fotos\gimnasio.png]]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0012</rem:owner><rem:date>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0004</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0010] Biblioteca del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Propiedad [FileName] actualizada [..\comedor.jpg] -> [.\fotos\comedor.png]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
+<rem:owner>SEC-0008</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([GLO-0015] Expediente)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0011</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0003] Base de datos del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0016] Habitación)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>PRG-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
-Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
-Por último,  ] -> [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
-
-Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
-
-Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.]]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([ORG-0002] IR-G1-BBJ-19)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0015</rem:owner><rem:date>
+<rem:owner>STK-0003</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0012] Expediente del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0013] Habitación del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0013] Catering)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>D</rem:type>
-<rem:owner>CRS-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado el objeto [PRG-0009]  con 0 hijos y 1 cambios]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0024</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [PRG-0001]  del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0024] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº10 ([GLO-0020] Residencia)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0021</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0011] Residente del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GLO-0012] Biblioteca)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0019</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0007] Recepción del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº9 ([GLO-0019] Recepción)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([GLO-0017] Página web)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0020</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0014] Residencia del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº11 ([GLO-0021] Residente)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>PRG-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Creación]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0008] Catering del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0018</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0009] Parte de incidencia del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([GLO-0018] Parte de incidencia)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0011] Base de datos)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº12 ([GLO-0022] Secretaría)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0013</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0023] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0002</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Eliminado hijo nº1 ([PRG-0009] )]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0017</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0004] Página web del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0022</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0005] Secretaría del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0014</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0006] Coronel del proyecto C:\Users\ACER\Documents\Proyecto IR\ResidenciaIR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0014] Coronel)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0009</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0004] Sistema de noticias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0017</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0007] Registro incidencias)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0035</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Encargado de mantenimiento] -> [Encargado de mantenimiento]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0002] Registro incidencias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0032</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [ persona que solicita plaza en la residencia.] -> [Persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0028</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [ persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0016</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0035] Copia de Encargado de mantenimiento)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0008] Reserva zona común)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([GLO-0034] Encargado de mantenimiento)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GRF-0001</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [FileName] actualizada [.\Solicitar plaza.png] -> [.\fotos\Solicitar plaza.png]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0028</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0027</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.] -> [dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0009] Sistema de noticias)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0034</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0008] Encargado de mantenimiento del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0032</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [Persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.] -> [persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>GLO-0027</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Propiedad [Text] actualizada [ dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.] -> [Dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.]]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0024</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0006] Registro de residentes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0003] Reserva zona común del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0035</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0034] Encargado de mantenimiento del proyecto C:\Users\ACER\Documents\Proyecto IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GRF-0006</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GRF-0001] Registro de residentes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0005</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0005] Préstamos biblioteca del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0029</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0003] Residente del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [STK-0003] Inmaculada Mayo Salvatierra del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1530,52 +1296,34 @@ Por último, la organización de la residencia es mala ya que no tienen nada infor
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([OBJ-0007] Reserva zonas comunes)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0029] Residente)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([OBJ-0006] Pandemia(Covid-19))]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([OBJ-0003] Foro de opiniones)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>GLO-0030</rem:owner><rem:date>
+<rem:owner>OBJ-0004</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0004] Coronel(director) del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0031</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0005] Encargado de cocina del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0004] Registro de residentes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:owner>SEC-0004</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0030] Coronel(director))]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0026] Objetivos)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0002] Página web del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1588,12 +1336,246 @@ Por último, la organización de la residencia es mala ya que no tienen nada infor
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
+<rem:owner>ORG-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [ORG-0002] IR-G1-BBJ-19 del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0005] Préstamos biblioteca del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0003</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0003] Foro de opiniones del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0002</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([GRF-0005] Gimnasio)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>STK-0004</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [STK-0004] Luis Pozas Delgado-Brackenbury del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0005</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0004] Gimnasio del proyecto C:\Users\ACER\Desktop\IR\parte sergio\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([ORG-0001] Residencia Militar San Hermenegildo)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
 <rem:owner>GLO-0027</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0001] Página web del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.] -> [dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0032</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.] -> [persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0028</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [ persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0008] Reserva zona común)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº3 ([GRF-0009] Sistema de noticias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0032</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [ persona que solicita plaza en la residencia.] -> [Persona que solicita plaza en la residencia, la cual tiene que ser hijo de militar o guardia civil.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0027</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [ dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.] -> [Dirección de internet en el que se encuentra toda la información y en la que se da a conocer la residencia.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0017</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº2 ([GRF-0007] Registro incidencias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0028</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.] -> [persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0004] Sistema de noticias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GRF-0001</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [FileName] actualizada [.\Solicitar plaza.png] -> [.\fotos\Solicitar plaza.png]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0003] Reserva zona común del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0030</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0004] Coronel(director) del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº4 ([GLO-0030] Coronel(director))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0031</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0005] Encargado de cocina del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0032</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0006] Solicitante del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0027] Página web)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([GLO-0033] Encargado de biblioteca)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([GLO-0034] Encargado de mantenimiento)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0035</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0034] Encargado de mantenimiento del proyecto C:\Users\ACER\Documents\Proyecto IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -1603,6 +1585,159 @@ Por último, la organización de la residencia es mala ya que no tienen nada infor
 <rem:day>7</rem:day>
 </rem:date>
 <rem:description><![CDATA[Clonado a partir de [GLO-0002] Secretario del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0016</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0035] Copia de Encargado de mantenimiento)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>GLO-0035</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Propiedad [Name] actualizada [Copia de Encargado de mantenimiento] -> [Encargado de mantenimiento]]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº7 ([OBJ-0007] Reserva zonas comunes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0006</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0001] Registro de residentes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº8 ([OBJ-0008] Comedor)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0007] Reserva zonas comunes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0027</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0001] Página web del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº9 ([OBJ-0009] Reportar incidencias)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº5 ([OBJ-0005] Préstamos biblioteca)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0024</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº1 ([GRF-0006] Registro de residentes)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([OBJ-0006] Pandemia(Covid-19))]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GRF-0007</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GRF-0002] Registro incidencias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0034</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0008] Encargado de mantenimiento del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>U</rem:type>
+<rem:owner>SEC-0023</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0032] Solicitante)]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0008</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0008] Comedor del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>OBJ-0009</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [OBJ-0009] Reportar incidencias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+</rem:change>
+<rem:change>
+<rem:type>C</rem:type>
+<rem:owner>GLO-0029</rem:owner><rem:date>
+<rem:year>2020</rem:year>
+<rem:month>11</rem:month>
+<rem:day>7</rem:day>
+</rem:date>
+<rem:description><![CDATA[Clonado a partir de [GLO-0003] Residente del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
@@ -1624,21 +1759,12 @@ Por último, la organización de la residencia es mala ya que no tienen nada infor
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
-<rem:owner>OBJ-0002</rem:owner><rem:date>
+<rem:owner>GLO-0033</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0002] Página web del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0007</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0007] Reserva zonas comunes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Clonado a partir de [GLO-0007] Encargado de biblioteca del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>C</rem:type>
@@ -1650,129 +1776,79 @@ Por último, la organización de la residencia es mala ya que no tienen nada infor
 <rem:description><![CDATA[Clonado a partir de [OBJ-0006] Pandemia(Covid-19) del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
 </rem:change>
 <rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0003</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0003] Foro de opiniones del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
 <rem:type>U</rem:type>
 <rem:owner>SEC-0023</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº6 ([GLO-0032] Solicitante)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0033</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0007] Encargado de biblioteca del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº3 ([GLO-0029] Residente)]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:owner>PRG-0036</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº5 ([OBJ-0005] Préstamos biblioteca)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [] -> [El método de trabajo que lleva actualmente la residencia es el mismo desde hace muchos años, por tanto los empleados saber perfectamente su funcionamiento. 
+
+El personal y los residentes no necesitan ningún conocimento sobre informática para poder realizar sus tareas. Al ser de forma presencial la manera en la que los residentes se comunican con recepción, hace que las dos partes puedan explicarse de forma más fluida y directa.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:owner>PRG-0036</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº8 ([OBJ-0008] Comedor)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [El método de trabajo que lleva actualmente la residencia es el mismo desde hace muchos años, por tanto los empleados saber perfectamente su funcionamiento. 
+
+El personal y los residentes no necesitan ningún conocimento sobre informática para poder realizar sus tareas. Al ser de forma presencial la manera en la que los residentes se comunican con recepción, hace que las dos partes puedan explicarse de forma más fluida y directa.] -> [El método de trabajo que lleva actualmente la residencia es el mismo desde hace muchos años, por tanto los empleados saber perfectamente su funcionamiento. 
+
+El personal y los residentes no necesitan ningún conocimiento sobre informática para poder realizar sus tareas. Al ser de forma presencial la manera en la que los residentes se comunican con recepción, hace que las dos partes puedan explicarse de forma más fluida y directa.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:owner>PRG-0023</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº9 ([OBJ-0009] Reportar incidencias)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo está a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidencias tardan mucho en mirarlos o que la mayoría de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+
+Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.] -> [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo está a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidencias tardan mucho en mirarlos o que la mayoría de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+
+Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que esto se agrabe.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:owner>PRG-0023</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([OBJ-0001] Sistema de noticias)]]></rem:description>
+<rem:description><![CDATA[Propiedad [Text] actualizada [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+
+Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.] -> [Uno de los mayores problemas de la residencia es la falta de renovación, todos los documentos como la ficha de residente, los partes de incidencia, el registro de actividades, etc, todo está a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un residente.
+
+Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidencias tardan mucho en mirarlos o que la mayoría de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.
+
+Por último, la organización de la residencia es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.]]]></rem:description>
 </rem:change>
 <rem:change>
 <rem:type>U</rem:type>
-<rem:owner>SEC-0021</rem:owner><rem:date>
+<rem:owner>SEC-0012</rem:owner><rem:date>
 <rem:year>2020</rem:year>
 <rem:month>11</rem:month>
 <rem:day>7</rem:day>
 </rem:date>
-<rem:description><![CDATA[Añadido hijo nº3 ([OBJ-0003] Foro de opiniones)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0004</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0004] Registro de residentes del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0009</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0009] Reportar incidencias del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>OBJ-0008</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [OBJ-0008] Comedor del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>C</rem:type>
-<rem:owner>GLO-0032</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Clonado a partir de [GLO-0006] Solicitante del proyecto C:\Users\ACER\Desktop\IR\PROYECTO IR\Proyecto IR.rem]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº7 ([GLO-0033] Encargado de biblioteca)]]></rem:description>
-</rem:change>
-<rem:change>
-<rem:type>U</rem:type>
-<rem:owner>SEC-0023</rem:owner><rem:date>
-<rem:year>2020</rem:year>
-<rem:month>11</rem:month>
-<rem:day>7</rem:day>
-</rem:date>
-<rem:description><![CDATA[Añadido hijo nº1 ([GLO-0027] Página web)]]></rem:description>
+<rem:description><![CDATA[Añadido hijo nº1 ([PRG-0036] Fortalezas de la situación actual)]]></rem:description>
 </rem:change>
 </rem:log>
