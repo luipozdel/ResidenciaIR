@@ -1,0 +1,1315 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="iso-8859-1" />
+<meta name="generatedBy" content="REMUS (REM 1.3)" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/stylesheets/remus.css" />
+<title>Proyecto Proyecto IR</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.0.2/showdown.js"></script>
+<script>
+            // showdown 1.0.2 (supported in IE 7 without es5-shim)
+            // Usage
+            // var result = converter.makeHtml(text);
+            // converter.setOption( "key", "value" );
+
+            var converter = new showdown.Converter();
+
+            // function to be used in XLST templates
+            // if inline=true, all CRLF tags are replaced
+            // by spaces to avoid internal <p>..</p> and
+            // the enclosing <p>..</p> (if any) is discarded.
+
+            function generate_markdown( id, inline )
+            {
+                // optional parameter
+                if ( inline === undefined ) {
+                    inline = false;
+                }
+
+                var md_id   = id + "-md";
+                var html_id = id + "-html";
+
+                var md_container   = document.getElementById( md_id );
+                var html_container = document.getElementById( html_id );
+
+                var md_text = md_container.value;
+
+                md_container.value = "remus_text = " + md_text; // for debugging
+
+                // Simple text replace can be performed using split and join faster
+                // than using replace with a regular expression as described in:
+                // https://dmitripavlutin.com/replace-all-string-occurrences-javascript/
+
+                /* no internal <p>...</p> in inline mode */
+                var newline = inline ? " " : "\n";
+                var two_newlines = newline + newline;
+
+                var crlf_tag             = "¬";
+                var two_crlf_tags        = crlf_tag + crlf_tag;
+                var three_spaces_newline = "   " + newline;
+                var reg_exp = new RegExp( "(" + crlf_tag + ")(?!(\\d\\.)|\\*|\\+|\\-|\\<)", 'g' );
+
+                // if ( inline )
+                //      replace all CRLF by spaces
+                // else
+                //      replace all CRLF+CRLF into \n\n
+                //      replace all CRLF not followed by *,+,-,&gt; or a digit+period into 3 spaces + \n
+                //      replace all remaining CRLF into \n
+                // endif
+                //
+                // try regular expressions at: https://regexr.com/
+
+                if ( inline ) {
+                    md_text = md_text.split( crlf_tag ).join( newline );
+                }
+                else {
+                    md_text = md_text.split( two_crlf_tags ).join( newline + newline );
+                    md_text = md_text.replace( reg_exp, three_spaces_newline + "$2" );
+                    md_text = md_text.split( crlf_tag ).join( newline );
+                }
+
+                md_container.value += "\n\nmd_text = " + md_text; // for debugging
+
+                // Don't get rid of enclosing <p>...</p> in paragraph mode,
+                // double \n inside markdown will close the first <p> generating an
+                // unbalanced </p> later and wrong html that will raise an
+                // error when assigned to innerHTML.
+
+                var html_text = converter.makeHtml( md_text );
+
+                if ( inline ) {
+                    // get rid of enclosing <p>...</p> (if any)
+                    // warning: generated item lists are not inside <p>...</p>
+                    // length("<p>") == 3, length("</p>") == 4
+                    if ( html_text.indexOf("<p>")       == 0 &&
+                         html_text.lastIndexOf("</p>")  == html_text.length - 4 )
+                    {
+                        html_text = html_text.slice( 3, -4 );
+                    }
+                }
+
+                md_container.value += ("\n\nhtml_text = " + html_text); // for debugging
+
+                html_container.innerHTML = html_text;
+            }
+
+            // array for user warnings
+            var warnings = new Array();
+        </script>
+</head>
+<body>
+<div id="warning_container" class="ui-widget">
+<span id="warning_title">Avisos</span>
+<div id="warning_messages"></div>
+</div>
+<div id="document_cover">
+<div id="browser_info">
+<script>
+                document.write( navigator.userAgent + "<br />" );
+                for( var opt in converter.getOptions() ) {
+                    document.write( "local option : " + opt + " = " + converter.getOption(opt) + "<br />" );
+                }
+                for( var opt in showdown.getOptions() ) {
+                    document.write( "global option : " + opt + " = " + showdown.getOption(opt) + "<br />" );
+                }
+            </script>
+</div>
+<div id="project_name">Proyecto Proyecto IR</div>
+<div id="document_logo">
+<img alt="Universidad de Sevilla" src="https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/assets/images/logo_us.gif" />
+</div>
+<div id="document_name">Documento de Requisitos del Sistema</div>
+<div id="document_version">Versión 1.0</div>
+<div id="document_date">Fecha 03/11/2020</div>
+<div id="document_prepared_for">Preparado para:<p class="tbd">?</p></div>
+<div id="document_prepared_by">Preparado por:<p class="tbd">?</p></div>
+</div>
+<div class="pagebreak"></div>
+<nav id="toc" role="navigation">
+<h1>Índice</h1>
+<ul class="toc_list toc_list_level_1">
+<li>1 <a href="#SEC-0001">Introducción</a></li>
+<ul class="toc_list">
+<li>1.1 <a href="#SEC-0002">Alcance del proyecto</a></li>
+<li>1.2 <a href="#SEC-0003">Participantes en el proyecto</a></li>
+<ul class="toc_list">
+<li>1.2.1 <a href="#SEC-0008">Organizaciones participantes</a></li>
+<li>1.2.2 <a href="#SEC-0009">Personas participantes</a></li>
+</ul>
+<li>1.3 <a href="#SEC-0004">Objetivos del proyecto</a></li>
+</ul>
+<li>2 <a href="#SEC-0005">Información sobre el dominio del problema</a></li>
+<ul class="toc_list">
+<li>2.1 <a href="#SEC-0006">Introducción al dominio del problema</a></li>
+<li>2.2 <a href="#SEC-0007">Glosario de términos</a></li>
+</ul>
+<li>3 <a href="#SEC-0010">Descripción de la situación actual</a></li>
+<ul class="toc_list">
+<li>3.1 <a href="#SEC-0011">Pros y contras de la situación actual</a></li>
+<ul class="toc_list">
+<li>3.1.1 <a href="#SEC-0012">Fortalezas de la situación actual</a></li>
+<li>3.1.2 <a href="#SEC-0013">Debilidades de la situación actual</a></li>
+</ul>
+<li>3.2 <a href="#SEC-0014">Modelos de procesos de negocio actuales</a></li>
+<ul class="toc_list">
+<li>3.2.1 <a href="#SEC-0016">Descripción de actores de negocio actuales</a></li>
+<li>3.2.2 <a href="#SEC-0017">Descripción de procesos de negocio actuales</a></li>
+</ul>
+<li>3.3 <a href="#SEC-0015">Entorno tecnológico actual</a></li>
+<ul class="toc_list">
+<li>3.3.1 <a href="#SEC-0018">Descripción del entorno de hardware actual</a></li>
+<li>3.3.2 <a href="#SEC-0019">Descripción del entorno actual de software actual</a></li>
+</ul>
+</ul>
+<li>4 <a href="#SEC-0020">Necesidades de negocio</a></li>
+<ul class="toc_list">
+<li>4.1 <a href="#SEC-0021">Objetivos de negocio</a></li>
+<li>4.2 <a href="#SEC-0022">Modelos de procesos de negocio a implementar</a></li>
+<ul class="toc_list">
+<li>4.2.1 <a href="#SEC-0023">Descipción de actores de negocio a implementar</a></li>
+<li>4.2.2 <a href="#SEC-0024">Descipción de procesos de negocio a implementar</a></li>
+</ul>
+</ul>
+</ul>
+</nav>
+<div class="pagebreak"></div>
+<h1 id="SEC-0001" class="section">1 Introducción</h1>
+<h2 id="SEC-0002" class="section">1.1 Alcance del proyecto</h2>
+<div id="PRG-0024">
+<textarea id="PRG-0024-text-md" class="markdown">La <a href="#GLO-0020" class="rem_ref">Residencia</a> San Hermenegildo es una <a href="#GLO-0020" class="rem_ref">residencia</a> que se encuentra en una zona privilegiada de la ciudad en pleno centro, en la avenida de la Borbolla (Sevilla), que tiene como finalidad facilitar el alojamiento y la manutención, asi como otros servicios complementarios, a los alumnos durante su curso escolar completo. ¬¬Disponen de salón comedor, cafeteria, capilla, gimnasio, <a href="#GLO-0012" class="rem_ref">biblioteca</a>, videoteca, salas de estudio, enfermeria, sala de juegos y piscina. Además, en los últimos años ha habido una mejora significativa del servicio de internet, la cual es fundamental para los alumnos. También disponen de servicio de limpieza y lavandería. Tiene 183 habitaciones individuales (84 masculinas y 99 femeninas).¬¬¬</textarea>
+<div id="PRG-0024-text-html" class=""></div>
+<script>generate_markdown("PRG-0024-text");</script>
+</div>
+<div id="GRF-0002" class="figure">
+<img class="figure_image" src=".\fotos\fachada_residencia.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 1: </span>
+<textarea id="GRF-0002-name-md" class="markdown">Fachada <a href="#GLO-0020" class="rem_ref">residencia</a>
+</textarea>
+<span id="GRF-0002-name-html"></span>
+<script>generate_markdown("GRF-0002-name",true);</script>
+</p>
+</div>
+<div id="GRF-0003" class="figure">
+<img class="figure_image" src=".\fotos\piscina.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 2: </span>
+<textarea id="GRF-0003-name-md" class="markdown">
+<a href="#GLO-0020" class="rem_ref">Residencia</a> desde la piscina</textarea>
+<span id="GRF-0003-name-html"></span>
+<script>generate_markdown("GRF-0003-name",true);</script>
+</p>
+</div>
+<div id="GRF-0004" class="figure">
+<img class="figure_image" src=".\fotos\comedor.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 3: </span>
+<textarea id="GRF-0004-name-md" class="markdown">Comedor</textarea>
+<span id="GRF-0004-name-html"></span>
+<script>generate_markdown("GRF-0004-name",true);</script>
+</p>
+</div>
+<div id="GRF-0005" class="figure">
+<img class="figure_image" src=".\fotos\gimnasio.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 4: </span>
+<textarea id="GRF-0005-name-md" class="markdown">Gimnasio</textarea>
+<span id="GRF-0005-name-html"></span>
+<script>generate_markdown("GRF-0005-name",true);</script>
+</p>
+</div>
+<h2 id="SEC-0003" class="section">1.2 Participantes en el proyecto</h2>
+<h3 id="SEC-0008" class="section">1.2.1 Organizaciones participantes</h3>
+<div id="PRG-0025">
+<textarea id="PRG-0025-text-md" class="markdown">En la <a href="#GLO-0020" class="rem_ref">Residencia</a> Militar San Hermenegildo existen diferentes organizaciones que colaboran para que esta lleve su correcto funcionamiento y mantenga satisfechos a los residentes.¬¬Entre estas organizaciones se encuentra Catergest que se encarga de la comida del comedor. También la <a href="#GLO-0020" class="rem_ref">residencia</a> cuenta con el soporte de DIAPER (Dirección de Asistencia al Personal).</textarea>
+<div id="PRG-0025-text-html" class=""></div>
+<script>generate_markdown("PRG-0025-text");</script>
+</div>
+<div id="ORG-0001">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">Residencia Militar San Hermenegildo</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<textarea id="ORG-0001-address-md" class="markdown">Av. de la Borbolla, 2, 41004 Sevilla</textarea>
+<div id="ORG-0001-address-html" class=""></div>
+<script>generate_markdown("ORG-0001-address");</script>
+</td>
+</tr>
+<tr>
+<th>Teléfono</th>
+<td colspan="1">954 42 02 11</td>
+</tr>
+<tr>
+<th>Fax</th>
+<td colspan="1">954 532 710</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="ORG-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="ORG-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("ORG-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="ORG-0002">
+<table class="organization remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/organization.png" /> Organización</th>
+<th class="name_column" colspan="1">IR-G1-BBJ-19</th>
+</tr>
+</thead>
+<tr>
+<th>Dirección</th>
+<td colspan="1">
+<textarea id="ORG-0002-address-md" class="markdown">Escuela Técnica Superior de Ingenieria Informática</textarea>
+<div id="ORG-0002-address-html" class=""></div>
+<script>generate_markdown("ORG-0002-address");</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="ORG-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="ORG-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("ORG-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<h3 id="SEC-0009" class="section">1.2.2 Personas participantes</h3>
+<div id="STK-0001">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Javier Pacheco Márquez</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">IR-G1-BBJ-19</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0001-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador, es cliente)                    </textarea>
+<span id="STK-0001-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0001-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0001-comments-md" class="markdown">Es cliente y a la vez ingeniero de requisitos.</textarea>
+<div id="STK-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0002">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Sergio López Díaz</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">IR-G1-BBJ-19</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0002-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador)                    </textarea>
+<span id="STK-0002-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0002-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0003">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Inmaculada Mayo Salvatierra</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">IR-G1-BBJ-19</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0003-stakeholderRole-md" class="markdown">Ingeniera de Requisitos                        (es desarrollador)                    </textarea>
+<span id="STK-0003-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0003-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="STK-0004">
+<table class="stakeholder remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/stakeholder.png" /> Participante</th>
+<th class="name_column" colspan="1">Luis Pozas Delgado-Brackenbury</th>
+</tr>
+</thead>
+<tr>
+<th>Organización</th>
+<td>
+<a href="#ORG-0002">IR-G1-BBJ-19</a>
+</td>
+</tr>
+<tr>
+<th>Rol</th>
+<td colspan="1">
+<textarea id="STK-0004-stakeholderRole-md" class="markdown">Ingeniero de Requisitos                        (es desarrollador)                    </textarea>
+<span id="STK-0004-stakeholderRole-html"></span>
+<script>generate_markdown("STK-0004-stakeholderRole",true);</script>
+</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="STK-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="STK-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("STK-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0004" class="section">1.3 Objetivos del proyecto</h2>
+<div id="PRG-0026">
+<textarea id="PRG-0026-text-md" class="markdown">La <a href="#GLO-0020" class="rem_ref">Residencia</a> desea tener un sistema software para poder gestionar tanto su tablón de anuncios, los menús del comedor, los partes de incidencias, las solicitudes del comedor, limpieza de habitaciones y para la lavandería.¬¬Para los estudiantes no existe una clara jerarquía en la dirección de la <a href="#GLO-0020" class="rem_ref">residencia</a>, está mal estructurada, desearían que la <a href="#GLO-0020" class="rem_ref">residencia</a> no se rigiera por mandos militares.¬¬Actualmente los residentes no pueden sacar libros de la <a href="#GLO-0012" class="rem_ref">biblioteca</a> porque no existe control sobre estos, así mismo desean disponer de un sistema bibliotecario para que se puedan alquilar libros y puedan sacarlos de la <a href="#GLO-0012" class="rem_ref">biblioteca</a> a base de préstamos.¬¬Varios estudiantes se han quejado de las improvisaciones por parte del <a href="#GLO-0014" class="rem_ref">coronel</a>. Quieren disponer de unos protocolos para las urgencias por COVID-19.¬¬Para llevar la <a href="#GLO-0020" class="rem_ref">residencia</a> con mayor comodidad y facilidad, nuestro software pretende tener un control sobre los residentes, para poder buscar su ficha técnica con facilidad en caso de cambio de algún dato, organizar mejor todas las disponibilidades que da la residendia como el comedor, la limpieza de habitaciones mediante una mejora de la comunicación mediante notificaciones o horarios puestos en la web.</textarea>
+<div id="PRG-0026-text-html" class=""></div>
+<script>generate_markdown("PRG-0026-text");</script>
+</div>
+<h1 id="SEC-0005" class="section">2 Información sobre el dominio del problema</h1>
+<h2 id="SEC-0006" class="section">2.1 Introducción al dominio del problema</h2>
+<div id="PRG-0010">
+<textarea id="PRG-0010-text-md" class="markdown">Este proyecto se centra en la <a href="#GLO-0020" class="rem_ref">Residencia</a> de Estudiantes San Hermenegildo, o RSH para abreviar, domicilio que ofrece alojamiento a hijos o nietos de militares o guardia civiles para poder continuar sus estudios fuera del hogar.¬Desde su apertura, el contacto con los estudiantes siempre ha sido de forma física, y, por lo tanto, no existe ninguna <a href="#GLO-0027" class="rem_ref">página web</a> o manera telemática en la que los residentes puedan resolver sus necesidades sin salir de sus habitaciones. Ahora quieren actualizarse y adaptarse a esta nueva era de la información y proporcionar un servicio de calidad a los inquilinos para que estos puedan concentrarse únicamente en sus estudios.¬Actualmente siempre se debe ir a <a href="#GLO-0019" class="rem_ref">recepción</a> o a la <a href="#GLO-0022" class="rem_ref">secretaría</a> para poder solucionar cualquier inconveniente. Estos procesos se registran a mano en <a href="#GLO-0019" class="rem_ref">recepción</a> para luego ser enviados a <a href="#GLO-0022" class="rem_ref">secretaría</a> esperando su procesado. ¬Con nuestro proyecto, se tratará de realizar los procesos de forma telemática, Cada solicitud o información que necesite el <a href="#GLO-0029" class="rem_ref">residente</a> se hará a través de una <a href="#GLO-0027" class="rem_ref">página web</a>. La <a href="#GLO-0020" class="rem_ref">residencia</a> tendrá a su disposición una <a href="#GLO-0011" class="rem_ref">base de datos</a> en donde guardara los datos de los residentes junto con sus solicitudes.</textarea>
+<div id="PRG-0010-text-html" class=""></div>
+<script>generate_markdown("PRG-0010-text");</script>
+</div>
+<h2 id="SEC-0007" class="section">2.2 Glosario de términos</h2>
+<div id="GLO-0011" class="glo">
+<textarea id="GLO-0011-text-md" class="markdown">**Base de datos**: Conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso.</textarea>
+<div id="GLO-0011-text-html" class=""></div>
+<script>generate_markdown("GLO-0011-text");</script>
+</div>
+<div id="GLO-0012" class="glo">
+<textarea id="GLO-0012-text-md" class="markdown">**Biblioteca**: Sala con libros a disposición de los residentes.</textarea>
+<div id="GLO-0012-text-html" class=""></div>
+<script>generate_markdown("GLO-0012-text");</script>
+</div>
+<div id="GLO-0013" class="glo">
+<textarea id="GLO-0013-text-md" class="markdown">**Catering**: Servicio que se encarga de preparar y servir las comidas de los residentes.</textarea>
+<div id="GLO-0013-text-html" class=""></div>
+<script>generate_markdown("GLO-0013-text");</script>
+</div>
+<div id="GLO-0014" class="glo">
+<textarea id="GLO-0014-text-md" class="markdown">**Coronel**: Director y dueño de la <a href="#GLO-0020" class="rem_ref">residencia</a>.</textarea>
+<div id="GLO-0014-text-html" class=""></div>
+<script>generate_markdown("GLO-0014-text");</script>
+</div>
+<div id="GLO-0015" class="glo">
+<textarea id="GLO-0015-text-md" class="markdown">**Expediente**: Código de identificación para cada <a href="#GLO-0029" class="rem_ref">residente</a>.</textarea>
+<div id="GLO-0015-text-html" class=""></div>
+<script>generate_markdown("GLO-0015-text");</script>
+</div>
+<div id="GLO-0016" class="glo">
+<textarea id="GLO-0016-text-md" class="markdown">**Habitación**: Alojamiento del <a href="#GLO-0029" class="rem_ref">residente</a>.</textarea>
+<div id="GLO-0016-text-html" class=""></div>
+<script>generate_markdown("GLO-0016-text");</script>
+</div>
+<div id="GLO-0017" class="glo">
+<textarea id="GLO-0017-text-md" class="markdown">**Página web**: Plataforma web que obtiene los datos que se almacenan en la <a href="#GLO-0011" class="rem_ref">base de datos</a>.</textarea>
+<div id="GLO-0017-text-html" class=""></div>
+<script>generate_markdown("GLO-0017-text");</script>
+</div>
+<div id="GLO-0018" class="glo">
+<textarea id="GLO-0018-text-md" class="markdown">**Parte de incidencia**: Documento que el <a href="#GLO-0029" class="rem_ref">residente</a> debe rellenar para solicitar el mantenimiento de su <a href="#GLO-0016" class="rem_ref">habitación</a>.</textarea>
+<div id="GLO-0018-text-html" class=""></div>
+<script>generate_markdown("GLO-0018-text");</script>
+</div>
+<div id="GLO-0019" class="glo">
+<textarea id="GLO-0019-text-md" class="markdown">**Recepción**: Lugar en que se recibe a los residentes.</textarea>
+<div id="GLO-0019-text-html" class=""></div>
+<script>generate_markdown("GLO-0019-text");</script>
+</div>
+<div id="GLO-0020" class="glo">
+<textarea id="GLO-0020-text-md" class="markdown">**Residencia**: Casa, departamento o lugar similar donde se reside.</textarea>
+<div id="GLO-0020-text-html" class=""></div>
+<script>generate_markdown("GLO-0020-text");</script>
+</div>
+<div id="GLO-0021" class="glo">
+<textarea id="GLO-0021-text-md" class="markdown">**Residente**: Estudiante que se aloja en el establecimiento.</textarea>
+<div id="GLO-0021-text-html" class=""></div>
+<script>generate_markdown("GLO-0021-text");</script>
+</div>
+<div id="GLO-0022" class="glo">
+<textarea id="GLO-0022-text-md" class="markdown">**Secretaría**: Entidad que se encarga de las tareas administrativas de la <a href="#GLO-0020" class="rem_ref">residencia</a>.</textarea>
+<div id="GLO-0022-text-html" class=""></div>
+<script>generate_markdown("GLO-0022-text");</script>
+</div>
+<h1 id="SEC-0010" class="section">3 Descripción de la situación actual</h1>
+<h2 id="SEC-0011" class="section">3.1 Pros y contras de la situación actual</h2>
+<h3 id="SEC-0012" class="section">3.1.1 Fortalezas de la situación actual</h3>
+<h3 id="SEC-0013" class="section">3.1.2 Debilidades de la situación actual</h3>
+<div id="PRG-0023">
+<textarea id="PRG-0023-text-md" class="markdown">Uno de los mayores problemas de la <a href="#GLO-0020" class="rem_ref">residencia</a> es la falta de renovación, todos los documentos como la ficha de <a href="#GLO-0029" class="rem_ref">residente</a>, los partes de incidencia, el registro de actividades, etc, todo esta a mano. Por tanto, es muy fácil que se pueda perder alguna ficha de un <a href="#GLO-0029" class="rem_ref">residente</a>.¬¬Luego, otro de los grandes problemas es la mala comunicación que hay entre los residentes y el director, ya que los partes de incidendias tardan mucho en mirarlos o que la mayoria de residentes no saben que comerán hasta que llegan al comedor por que no se les comunica de ninguna forma.¬¬Por último, la organización de la <a href="#GLO-0020" class="rem_ref">residencia</a> es mala ya que no tienen nada informatizado y la mala comunicación influye a que ésto se agrabe.</textarea>
+<div id="PRG-0023-text-html" class=""></div>
+<script>generate_markdown("PRG-0023-text");</script>
+</div>
+<h2 id="SEC-0014" class="section">3.2 Modelos de procesos de negocio actuales</h2>
+<h3 id="SEC-0016" class="section">3.2.1 Descripción de actores de negocio actuales</h3>
+<div id="GLO-0004" class="glo">
+<textarea id="GLO-0004-text-md" class="markdown">**Secretario**: Persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.</textarea>
+<div id="GLO-0004-text-html" class=""></div>
+<script>generate_markdown("GLO-0004-text");</script>
+</div>
+<div id="GLO-0005" class="glo">
+<textarea id="GLO-0005-text-md" class="markdown">**Residente**: Persona que reside en la <a href="#GLO-0020" class="rem_ref">residencia</a> y que ha sido admitido previamente.</textarea>
+<div id="GLO-0005-text-html" class=""></div>
+<script>generate_markdown("GLO-0005-text");</script>
+</div>
+<div id="GLO-0006" class="glo">
+<textarea id="GLO-0006-text-md" class="markdown">**Coronel(director)**: Persona de mayor rango, que se encarga de la toma de decisiones y es el que dirige la <a href="#GLO-0020" class="rem_ref">residencia</a>
+</textarea>
+<div id="GLO-0006-text-html" class=""></div>
+<script>generate_markdown("GLO-0006-text");</script>
+</div>
+<div id="GLO-0007" class="glo">
+<textarea id="GLO-0007-text-md" class="markdown">**Solicitante**: Persona que solicita plaza en la <a href="#GLO-0020" class="rem_ref">residencia</a>, la cual tiene que ser hijo de militar o guardia civil.¬</textarea>
+<div id="GLO-0007-text-html" class=""></div>
+<script>generate_markdown("GLO-0007-text");</script>
+</div>
+<div id="GLO-0008" class="glo">
+<textarea id="GLO-0008-text-md" class="markdown">**Encargado de cocina**: Persona que se encarga del funcionamiento del servicio del comedor.</textarea>
+<div id="GLO-0008-text-html" class=""></div>
+<script>generate_markdown("GLO-0008-text");</script>
+</div>
+<div id="GLO-0035" class="glo">
+<textarea id="GLO-0035-text-md" class="markdown">**Encargado de mantenimiento**:  persona que se encarga de reparar y mantener las instalaciones en perfecto estado.</textarea>
+<div id="GLO-0035-text-html" class=""></div>
+<script>generate_markdown("GLO-0035-text");</script>
+</div>
+<h3 id="SEC-0017" class="section">3.2.2 Descripción de procesos de negocio actuales</h3>
+<div id="GRF-0001" class="figure">
+<img class="figure_image" src=".\fotos\Solicitar plaza.png" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 5: </span>
+<textarea id="GRF-0001-name-md" class="markdown">Solicitar plaza</textarea>
+<span id="GRF-0001-name-html"></span>
+<script>generate_markdown("GRF-0001-name",true);</script>
+</p>
+</div>
+<div id="GRF-0007" class="figure">
+<img class="figure_image" src=".\fotos\Registro incidencias.PNG" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 6: </span>
+<textarea id="GRF-0007-name-md" class="markdown">Registro incidencias</textarea>
+<span id="GRF-0007-name-html"></span>
+<script>generate_markdown("GRF-0007-name",true);</script>
+</p>
+</div>
+<h2 id="SEC-0015" class="section">3.3 Entorno tecnológico actual</h2>
+<h3 id="SEC-0018" class="section">3.3.1 Descripción del entorno de hardware actual</h3>
+<div id="PRG-0002">
+<textarea id="PRG-0002-text-md" class="markdown">La <a href="#GLO-0020" class="rem_ref">residencia</a> dispone de una red Wi-Fi para los residentes, una impresora y un ordenador.</textarea>
+<div id="PRG-0002-text-html" class=""></div>
+<script>generate_markdown("PRG-0002-text");</script>
+</div>
+<h3 id="SEC-0019" class="section">3.3.2 Descripción del entorno actual de software actual</h3>
+<div id="PRG-0003">
+<textarea id="PRG-0003-text-md" class="markdown">La <a href="#GLO-0020" class="rem_ref">residencia</a> no cuenta con un software propio, salvo un ordenador en secretaria que posee Windows 10. En el tienen Word para crear los formularios de inscripción de eventos.¬</textarea>
+<div id="PRG-0003-text-html" class=""></div>
+<script>generate_markdown("PRG-0003-text");</script>
+</div>
+<h1 id="SEC-0020" class="section">4 Necesidades de negocio</h1>
+<h2 id="SEC-0021" class="section">4.1 Objetivos de negocio</h2>
+<div id="OBJ-0001">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0001</th>
+<th class="name_column" colspan="1">Sistema de noticias</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0001-description-md" class="markdown">El sistema deberá  implementar un sistema de noticias como alternativa al tablón de anuncios para que todos los residentes reciban todas las noticias importantes de la <a href="#GLO-0020" class="rem_ref">residencia</a>..</textarea>
+<div id="OBJ-0001-description-html" class=""></div>
+<script>generate_markdown("OBJ-0001-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0001-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0001-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0001-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0002">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0002</th>
+<th class="name_column" colspan="1">Página web</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0002-description-md" class="markdown">El sistema deberá implementar una <a href="#GLO-0027" class="rem_ref">página web</a> para que las personas interesadas puedan tener todo tipo de información..</textarea>
+<div id="OBJ-0002-description-html" class=""></div>
+<script>generate_markdown("OBJ-0002-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">alta</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0002-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0002-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0002-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0003">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0003</th>
+<th class="name_column" colspan="1">Foro de opiniones</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0003-description-md" class="markdown">El sistema deberá implemtar un foro de opiniones para que las personas interesadas puedan hacer cualquier tipo de pregunta y ver las opiniones de los residentes..</textarea>
+<div id="OBJ-0003-description-html" class=""></div>
+<script>generate_markdown("OBJ-0003-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">quedaría bien</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0003-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0003-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0003-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0004">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0004</th>
+<th class="name_column" colspan="1">Registro de residentes</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0004-description-md" class="markdown">El sistema deberá implementar una alternativa a la forma manual de registro para llevar un control de todos los residentes y tener un mayor control de los expedintes..</textarea>
+<div id="OBJ-0004-description-html" class=""></div>
+<script>generate_markdown("OBJ-0004-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de verificación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0004-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0004-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0004-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0005">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0005</th>
+<th class="name_column" colspan="1">Préstamos biblioteca</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0005-description-md" class="markdown">El sistema deberá gestionar un sistema de préstamos bibliotecarios y un listado con los libros disponibles para poder alquilarlo..</textarea>
+<div id="OBJ-0005-description-html" class=""></div>
+<script>generate_markdown("OBJ-0005-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de validación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0005-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0005-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0005-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0006">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0006</th>
+<th class="name_column" colspan="1">Pandemia(Covid-19)</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0006-description-md" class="markdown">El sistema deberá un plan en caso de pandemia para tener una mayor eficencia..</textarea>
+<div id="OBJ-0006-description-html" class=""></div>
+<script>generate_markdown("OBJ-0006-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">inmediatamente</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de validación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">alta</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0006-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0006-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0006-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0007">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0007</th>
+<th class="name_column" colspan="1">Reserva zonas comunes</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0007-description-md" class="markdown">El sistema deberá implementar una web donde poder apuntarse de manera sencilla para ver las horas que están disponibles y poder reservar..</textarea>
+<div id="OBJ-0007-description-html" class=""></div>
+<script>generate_markdown("OBJ-0007-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">importante</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de validación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0007-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0007-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0007-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0008">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0008</th>
+<th class="name_column" colspan="1">Comedor</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0008-description-md" class="markdown">El sistema deberá dar a conocer los distintos menús para los residentes con algún tipo de intolerencia o alergenos..</textarea>
+<div id="OBJ-0008-description-html" class=""></div>
+<script>generate_markdown("OBJ-0008-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">vital</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">hay presión</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de validación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">alta</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0008-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0008-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0008-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<div id="OBJ-0009">
+<table class="objective remus_table">
+<thead>
+<tr>
+<th>
+<img src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/images/icons/objective.png" /> OBJ-0009</th>
+<th class="name_column" colspan="1">Reportar incidencias</th>
+</tr>
+</thead>
+<tr>
+<th>Versión</th>
+<td colspan="1">1.0 (07/11/2020)
+</td>
+</tr>
+<tr>
+<th>Autores</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0003">Inmaculada Mayo Salvatierra</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Fuentes</th>
+<td colspan="1">
+<ul class="stakeholders">
+<li>
+<a href="#STK-0001">Javier Pacheco Márquez</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td colspan="1">
+<textarea id="OBJ-0009-description-md" class="markdown">El sistema deberá gestionar las incidencias para reportar todos los problemas exteriores e interiores de la <a href="#GLO-0020" class="rem_ref">residencia</a>..</textarea>
+<div id="OBJ-0009-description-html" class=""></div>
+<script>generate_markdown("OBJ-0009-description");</script>
+</td>
+</tr>
+<tr>
+<th>Importancia</th>
+<td colspan="1">quedaría bien</td>
+</tr>
+<tr>
+<th>Urgencia</th>
+<td colspan="1">puede esperar</td>
+</tr>
+<tr>
+<th>Estado</th>
+<td colspan="1">pendiente de validación</td>
+</tr>
+<tr>
+<th>Estabilidad</th>
+<td colspan="1">media</td>
+</tr>
+<tr>
+<th>Comentarios</th>
+<td colspan="1">
+<textarea id="OBJ-0009-comments-md" class="markdown">Ninguno</textarea>
+<div id="OBJ-0009-comments-html" class="remus_comments"></div>
+<script>generate_markdown("OBJ-0009-comments");</script>
+</td>
+</tr>
+</table>
+</div>
+<h2 id="SEC-0022" class="section">4.2 Modelos de procesos de negocio a implementar</h2>
+<h3 id="SEC-0023" class="section">4.2.1 Descipción de actores de negocio a implementar</h3>
+<div id="GLO-0027" class="glo">
+<textarea id="GLO-0027-text-md" class="markdown">**Página web**: dirección de internet en el que se encuentra toda la información y en la que se da a conocer la <a href="#GLO-0020" class="rem_ref">residencia</a>.</textarea>
+<div id="GLO-0027-text-html" class=""></div>
+<script>generate_markdown("GLO-0027-text");</script>
+</div>
+<div id="GLO-0028" class="glo">
+<textarea id="GLO-0028-text-md" class="markdown">**Secretario**: persona que se encarga de escribir la correspondencia, ordenar y guardar los documentos.</textarea>
+<div id="GLO-0028-text-html" class=""></div>
+<script>generate_markdown("GLO-0028-text");</script>
+</div>
+<div id="GLO-0029" class="glo">
+<textarea id="GLO-0029-text-md" class="markdown">**Residente**:  persona que reside en la <a href="#GLO-0020" class="rem_ref">residencia</a> y ha sido admitido previamente.¬</textarea>
+<div id="GLO-0029-text-html" class=""></div>
+<script>generate_markdown("GLO-0029-text");</script>
+</div>
+<div id="GLO-0030" class="glo">
+<textarea id="GLO-0030-text-md" class="markdown">**Coronel(director)**:  persona de mayor rango, que se encarga de la toma de decisiones.</textarea>
+<div id="GLO-0030-text-html" class=""></div>
+<script>generate_markdown("GLO-0030-text");</script>
+</div>
+<div id="GLO-0031" class="glo">
+<textarea id="GLO-0031-text-md" class="markdown">**Encargado de cocina**:  persona que se encarga del funcionamiento del servicio del comedor.</textarea>
+<div id="GLO-0031-text-html" class=""></div>
+<script>generate_markdown("GLO-0031-text");</script>
+</div>
+<div id="GLO-0032" class="glo">
+<textarea id="GLO-0032-text-md" class="markdown">**Solicitante**: persona que solicita plaza en la <a href="#GLO-0020" class="rem_ref">residencia</a>, la cual tiene que ser hijo de militar o guardia civil.</textarea>
+<div id="GLO-0032-text-html" class=""></div>
+<script>generate_markdown("GLO-0032-text");</script>
+</div>
+<div id="GLO-0033" class="glo">
+<textarea id="GLO-0033-text-md" class="markdown">**Encargado de biblioteca**:  persona que se encarga de tener un control de la <a href="#GLO-0012" class="rem_ref">biblioteca</a> y de los préstamos bibliotecarios. </textarea>
+<div id="GLO-0033-text-html" class=""></div>
+<script>generate_markdown("GLO-0033-text");</script>
+</div>
+<div id="GLO-0034" class="glo">
+<textarea id="GLO-0034-text-md" class="markdown">**Encargado de mantenimiento**:  persona que se encarga de reparar y mantener las instalaciones en perfecto estado.</textarea>
+<div id="GLO-0034-text-html" class=""></div>
+<script>generate_markdown("GLO-0034-text");</script>
+</div>
+<h3 id="SEC-0024" class="section">4.2.2 Descipción de procesos de negocio a implementar</h3>
+<div id="GRF-0006" class="figure">
+<img class="figure_image" src=".\fotos\Inscripción residentes.PNG" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 7: </span>
+<textarea id="GRF-0006-name-md" class="markdown">Registro de residentes</textarea>
+<span id="GRF-0006-name-html"></span>
+<script>generate_markdown("GRF-0006-name",true);</script>
+</p>
+</div>
+<div id="GRF-0008" class="figure">
+<img class="figure_image" src=".\fotos\Reserva zona común.PNG" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 8: </span>
+<textarea id="GRF-0008-name-md" class="markdown">Reserva zona común</textarea>
+<span id="GRF-0008-name-html"></span>
+<script>generate_markdown("GRF-0008-name",true);</script>
+</p>
+</div>
+<div id="GRF-0009" class="figure">
+<img class="figure_image" src=".\fotos\Sistema de noticias.PNG" />
+<p class="figure_caption">
+<span class="figure_caption_label">Figura 9: </span>
+<textarea id="GRF-0009-name-md" class="markdown">Sistema de noticias</textarea>
+<span id="GRF-0009-name-html"></span>
+<script>generate_markdown("GRF-0009-name",true);</script>
+</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+            // set tooltips of rem:ref references to glossary items or class supertypes
+            $( ".rem_ref" ).each( function () {
+                var sharp_position = this.href.lastIndexOf("#");
+                var id_glossary_item = this.href.substring( sharp_position + 1 ) + "-text-html";
+                var id_supertype = this.href.substring( sharp_position + 1 ) + "-description-html";
+
+                // some rem:refs to use cases do not have -text-html elements
+                if ( document.getElementById( id_glossary_item ) )
+                    this.title = document.getElementById( id_glossary_item ).innerText;
+
+                else if ( document.getElementById( id_supertype ) )
+                    this.title = document.getElementById( id_supertype ).innerText;
+            });
+
+            // set tooltips of rem:tbd elements
+            $( ".tbd" ).each( function () {
+                this.title = 'Por determinar';
+            });
+
+            // show warnings (if any)
+            if ( warnings.length ) {
+                var warning_list = $("<ul></ul>");
+                for ( var i = 0; i < warnings.length; i++ ) {
+                    var warning = warnings[ i ];
+                    var warning_link = $('<a href="#' + warning.oid + '">' + warning.oid + '</a>' );
+                    var warning_message = ": " + warning.message;
+                    var warning_item = $("<li></li>").append(warning_link, warning_message);
+
+                    warning_list.append( warning_item );
+                }
+                $("#warning_messages").append( warning_list );
+                $("#warning_container").show();
+            }
+
+            // manage traceability matrices buttons
+            function update_font_size( parent_table, size )
+            {
+                var matrix_columns = parent_table.find( "th.matrix_column" );
+                var font_size = parseInt( matrix_columns.eq(0).css( "font-size" ), 10 );
+
+                matrix_columns.css( "font-size", font_size + size );
+            }
+
+            $( "button.reduce_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, -1 );
+            });
+
+            $( "button.increase_font" ).click( function() {
+                var parent_table = $(this).parents( "table.traceability_matrix" );
+                update_font_size( parent_table, 1 );
+            });
+        </script>
+<script src="https://cdn.jsdelivr.net/gh/amador-duran-toro/remus/assets/javascripts/ie7-shim-min-width.js"></script>
+<script>
+            fixMinWidthForIE();
+        </script>
+</body>
+</html>
