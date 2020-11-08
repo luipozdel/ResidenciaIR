@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <!DOCTYPE rem:requirementsProject SYSTEM "https://cdn.jsdelivr.net/gh/amador-duran-toro/rem/xml/remus.dtd">
 <rem:requirementsProject xmlns:rem="http://rem.lsi.us.es">
-<rem:name>Proyecto IR</rem:name>
+<rem:name>Residencia militar de estudiantes</rem:name>
 <rem:c_requirementsSpecification oid = "CRS-0001">
 <rem:name>Documento de Requisitos del Sistema</rem:name>
 <rem:version>
@@ -82,7 +82,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\fotos\piscina.png]]></rem:fileName>
+<rem:fileName><![CDATA[..\fotos\piscina.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0004">
 <rem:name>Comedor</rem:name>
@@ -96,7 +96,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\fotos\comedor.png]]></rem:fileName>
+<rem:fileName><![CDATA[..\fotos\comedor.jpg]]></rem:fileName>
 </rem:graphicFile>
 <rem:graphicFile oid="GRF-0005">
 <rem:name>Gimnasio</rem:name>
@@ -110,7 +110,7 @@
 </rem:date>
 </rem:version>
 <rem:comments>Ninguno</rem:comments>
-<rem:fileName><![CDATA[.\fotos\gimnasio.png]]></rem:fileName>
+<rem:fileName><![CDATA[..\fotos\gimnasio.jpg]]></rem:fileName>
 </rem:graphicFile>
 </rem:section>
 <rem:section oid="SEC-0003">
